@@ -13,27 +13,16 @@
 						
                     </div>
                 </div>
-				<div class="header-column">
-                    <div class="header-search">
-                        <form id="searchForm" action="<?php echo base_url(); ?>berita/index/" method="POST">
-                            <div class="input-group">
-                                <input type="text" class="form-control" name="kata" placeholder="Pencarian..." required="" aria-required="true">
-                                <span class="input-group-btn">
-                                    <button name="cari" class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
-                                </span>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+				
                 
             </div>
         </div>
-        <div class="header-container header-nav header-nav-center header-nav-bar header-nav-bar-primary">
+        <div class="header-container header-nav header-nav-center header-nav-bar navbar navbar-dark bg-primary" style="background-color: blue;">
 
             <button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main">
                 <i class="fa fa-bars"></i>
             </button>
-            <div class="header-nav-main header-nav-main-light header-nav-main-effect-1 header-nav-main-sub-effect-1 collapse" style="padding-top:3px;">
+            <div class="header-nav-main header-nav-main-light header-nav-main-effect-1 header-nav-main-sub-effect-1 collapse" style="padding-top:3px; background-color: blue;">
                 <nav>
                     <ul class="nav nav-pills" id="mainNav">
                         <li class="">
