@@ -26,7 +26,7 @@
                 
             </div>
 			<div class="col-md-4">
-                <h5 class="mb-sm">Hubungi Kami</h5>
+                <h5 class="mb-sm">Hubungi</h5>
                 <span class="phone"><?php echo $iden['no_telp']; ?></span>
                 <?php
 				echo $alamat["alamat"];
