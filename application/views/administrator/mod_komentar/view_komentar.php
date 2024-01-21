@@ -18,7 +18,7 @@
                   <?php 
                     $no = 1;
                     foreach ($record as $row){
-                    $brt = $this->model_app->view_where('berita',array('id_berita'=>$row['id_berita']))->row_array();
+                    $brt = $this->model_app->getBerita()->row_array();
                     if ($row['aktif']=='N'){ $bold = 'bold'; }else{ $bold = 'none'; }
                     echo "<tr style='font-weight:$bold'><td>$no</td>
                               <td><a target='_BLANK' href='".base_url()."berita/detail/$brt[judul_seo]'>$row[nama_komentar]</a></td>

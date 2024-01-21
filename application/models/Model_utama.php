@@ -132,4 +132,13 @@ class Model_utama extends CI_model{
 		$bataswaktu       = time() - 300;
 		return $this->db->query("SELECT * FROM statistik WHERE online > '$bataswaktu'");
 	}
+
+    function getKarir(){
+
+        return $this->db->query("SELECT * FROM karir");
+    }
+    function getMitra(){
+
+        return $this->db->query("SELECT * FROM mitra");
+    }
 }

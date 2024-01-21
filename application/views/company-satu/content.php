@@ -58,7 +58,7 @@ $linksatu = $this->model_utama->view_where_ordering_limit('link', array('id_pare
 					<div class="box-content">
 						<i class="icon-featured fa fa-book"></i>
 						<h4>MANAGEMENT</h4>
-						<a href="#" class="btn btn-tertiary mr-xs mb-lg">Klik Disini</a>
+						<a href="<?= base_url() . 'halaman/detailManagement';?>" class="btn btn-tertiary mr-xs mb-lg">Klik Disini</a>
 					</div>
 				</div>
 			</div>
@@ -67,7 +67,7 @@ $linksatu = $this->model_utama->view_where_ordering_limit('link', array('id_pare
 					<div class="box-content">
 						<i class="icon-featured fa fa-line-chart"></i>
 						<h4>OUTLET</h4>
-						<a href="#" class="btn btn-tertiary mr-xs mb-lg">Klik Disini</a>
+						<a href="<?= base_url() . 'halaman/detailOutlet';?>" class="btn btn-tertiary mr-xs mb-lg">Klik Disini</a>
 					</div>
 				</div>
 			</div>
@@ -76,7 +76,7 @@ $linksatu = $this->model_utama->view_where_ordering_limit('link', array('id_pare
 					<div class="box-content">
 						<i class="icon-featured fa fa-newspaper-o"></i>
 						<h4>MITRA</h4>
-						<a href="<?= base_url().'kategori/cekMitra' ;?>" class="btn btn-tertiary mr-xs mb-lg">Klik Disini</a>
+						<a href="<?= base_url().'halaman/detailMitra' ;?>" class="btn btn-tertiary mr-xs mb-lg">Klik Disini</a>
 					</div>
 				</div>
 			</div>

@@ -18,24 +18,38 @@ class Halaman extends CI_Controller {
 			$this->template->load(template().'/template',template().'/detailhalaman',$data);
 		}
 	}
-
+	
 	public function detailKarir()
 	{
-		// echo 'masuk detail karir';die;
-		$query = $this->model_utama->view_join_one('halamanstatis','users','username',array('judul_seo' => $this->uri->segment(3)),'id_halaman','DESC',0,1);
-		if ($query->num_rows()<=0){
-			redirect('data karir tidak ditemukan');
+		$query = $this->model_utama->getKarir()->row_array();
+		$data['title'] 			= 'Career Page';
+		$data['description']	= 'This is Karir Page';
+		$data['keywords'] 		= cetak(str_replace(' ',', ',$query['karir_name']));
+		if($query == null){
+			$this->template->load(template().'/template',template().'/blankPage',$data);
 		}else{
-			$row = $query->row_array();
-			$data['title'] = cetak($row['judul']);
-			$data['description'] = cetak($row['isi_halaman']);
-			$data['keywords'] = cetak(str_replace(' ',', ',$row['judul']));
-			$data['rows'] = $row;
+			
+	
+			$this->template->load(template().'/template',template().'/detailKarirView',$data);
 
-			$dataa = array('dibaca'=>$row['dibaca']+1);
-			$where = array('id_halaman' => $row['id_halaman']);
-			$this->model_utama->update('halamanstatis', $dataa, $where);
-			$this->template->load(template().'/template',template().'/detailhalaman',$data);
-		}	
+		}
+
+	}
+
+	public function detailMitra()
+	{
+		$query = $this->model_utama->getMitra()->row_array();
+		$data['title'] 			= 'Mitra Page';
+		$data['description']	= 'This is Mitra Page';
+		$data['keywords'] 		= cetak(str_replace(' ',', ',$query['mitra_name']));
+		if($query == null){
+			$this->template->load(template().'/template',template().'/blankPage',$data);
+		}else{
+			
+	
+			$this->template->load(template().'/template',template().'/detailMitraView',$data);
+
+		}
+
 	}
 }
