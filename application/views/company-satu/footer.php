@@ -28,7 +28,7 @@
             </div> -->
 			<div class="col-md-4">
                 <h5 class="mb-sm">Hubungi Kami</h5>
-                <span class="phone"><p>isikan no telp bjs disini</p></span>
+                <span class="phone"><p>021-6540335, Ext 5039/6000</p></span>
                 <p><span style="font-size:13px"><b>Alamat Redaksi :</b><p>Gedung Jamkrindo, Jl. Angkasa No.10, RW. 10, Gn. Sahari Sel. Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10610</p></span></p>
 
                 <ul class="social-icons mt-xl">
