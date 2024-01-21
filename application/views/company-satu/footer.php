@@ -10,9 +10,10 @@
            
             <div class="col-md-4">
                <h5 class="mb-sm">LOKASI</h5>
-            	<iframe width="100%" height="350" src="<<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.4906262786462!2d124.83172187434832!3d1.4781622985079512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3287753655555555%3A0x980210b5a7db291e!2sJaminan%20Kredit%20Indonesia%20(Jamkrindo)!5e0!3m2!1sid!2sid!4v1705393814801!5m2!1sid!2sid" width="100" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.820060993429!2d106.84217702363748!3d-6.154848810324186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f52bf229293b%3A0xaacf4fb999e84a4a!2sPT%20BINTANG%20JAMTAMA%20SEJAHTERA!5e0!3m2!1sid!2sid!4v1705589551917!5m2!1sid!2sid" width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            	<!-- <iframe width="100%" height="350" src="<<iframe src="https://www.google.com/maps/dir/Pt.+Bintang+Jamtama+Sejahtera/PT+BINTANG+JAMTAMA+SEJAHTERA,+Gedung+Jamkrindo,+Jl.+Angkasa+No.10,+RW.10,+Gn.+Sahari+Sel.,+Kec.+Kemayoran,+Kota+Jakarta+Pusat,+Daerah+Khusus+Ibukota+Jakarta+10610/@-6.1548488,106.842177,17z/data=!4m13!4m12!1m5!1m1!1s0x2e69f59574b8ce47:0xaf7eee628c625b0f!2m2!1d106.843927!2d-6.1540388!1m5!1m1!1s0x2e69f52bf229293b:0xaacf4fb999e84a4a!2m2!1d106.8455102!2d-6.1556868?entry=ttu" width="100" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe> -->
             </div>
-			<div class="col-md-4">
+			<!-- <div class="col-md-4">
                 <h5 class="mb-sm" style="padding-left:15px;">LINK TERKAIT</h5>
 				<ul class="list list-icons list-icons-sm" style="padding-left:15px;">
 					<?php
@@ -24,13 +25,12 @@
 				</ul>
 				
                 
-            </div>
+            </div> -->
 			<div class="col-md-4">
                 <h5 class="mb-sm">Hubungi Kami</h5>
-                <span class="phone"><?php echo $iden['no_telp']; ?></span>
-                <?php
-				echo $alamat["alamat"];
-				?>
+                <span class="phone"><p>isikan no telp bjs disini</p></span>
+                <p><span style="font-size:13px"><b>Alamat Redaksi :</b><p>Gedung Jamkrindo, Jl. Angkasa No.10, RW. 10, Gn. Sahari Sel. Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10610</p></span></p>
+
                 <ul class="social-icons mt-xl">
                         <li>
                             <a class="sc-1" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
