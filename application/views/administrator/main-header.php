@@ -62,7 +62,7 @@
               </li>
               <?php } ?>
               <li>
-                <a target='logout' href="<?php echo base_url(); ?>"><i class="glyphicon glyphicon-new-window"></i></a>
+                <a target='_BLANK' href="<?php echo base_url(); ?>"><i class="glyphicon glyphicon-new-window"></i></a>
               </li>
 
             </ul>
