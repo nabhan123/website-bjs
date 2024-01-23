@@ -17,7 +17,7 @@
                                         <div class="owl-carousel owl-theme" data-plugin-options="{'items':1}">
                                             <div>
                                                 <div class="img-thumbnail" style="display:inherit;">
-                                                    <img style="width:100%" class="img-responsive" src="<?php echo base_url() . "asset/company-profile/cmpProfile.png" ?>" alt="">
+                                                    <img style="width:100%" class="img-fluid" src="<?php echo base_url() . "asset/company-profile/cmpProfile.png" ?>" alt="">
                                                 </div>
                                             </div>
                                         </div>
