@@ -14,7 +14,7 @@ class Halaman extends CI_Controller {
 			$data['keywords'] 		= cetak(str_replace(' ',', ',$data['description']));
 			$this->template->load(template().'/template',template().'/detailSejarahView',$data);
 		}elseif($query->row_array()['judul_seo'] == 'visi-dan-misi-perusahaan'){
-			$data['title'] 			= 'Sejarah Perusahaan';
+			$data['title'] 			= 'Visi Misi Perusahaan';
 			$data['description']	= 'This is Company Profile Page';
 			$data['keywords'] 		= cetak(str_replace(' ',', ',$data['description']));
 			$this->template->load(template().'/template',template().'/visiMisiView',$data);

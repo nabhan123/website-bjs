@@ -8,7 +8,7 @@
 									<div class="post-image">
                                         <div class="owl-carousel owl-theme" data-plugin-options="{'items':1}">
                                             <div>
-                                                <h1 style="color: blue;"><?= $title?></h1>
+                                                <h1 style="color: #1E90FF; font-weight: bold;"><?= $title?></h1>
                                                 
                                             </div>
                                         </div>
@@ -17,7 +17,7 @@
                                         <div class="owl-carousel owl-theme" data-plugin-options="{'items':1}">
                                             <div>
                                                 <div class="img-thumbnail" style="display:inherit;">
-                                                    <img style="width:100%" class="img-responsive" src="<?php echo base_url() . "asset/holding-corporate.png" ?>" alt="">
+                                                    <img style="width:100%" class="img-responsive" src="<?php echo base_url() . "asset/company-profile/manage.png" ?>" alt="">
                                                 </div>
                                             </div>
                                         </div>
@@ -26,7 +26,22 @@
                             </article>
                         </div>
                     </div>
-
+                    <div class="col-md-3">
+                        <aside class="siderbar">
+							<h4 class="heading-primary">Latest News</h4>
+                            <ul class="nav nav-list mb-xlg">
+							<?php
+							$pilihan = $this->model_utama->view_join_two('berita','users','kategori','username','id_kategori',array('berita.aktif' => 'Y','status' => 'Y'),'id_berita','DESC',0,8);
+							foreach ($pilihan->result_array() as $row) {   
+                                    echo "<li><a href='../../berita/detail/$row[judul_seo]'>$row[judul]</a></li>";
+                            }
+							?>
+                            </ul>
+                            <hr />
+							
+                       
+                        </aside>
+                    </div>
                     
                 </div>
             </div>

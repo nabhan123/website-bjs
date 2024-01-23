@@ -8,7 +8,7 @@
 									<div class="post-image">
                                         <div class="owl-carousel owl-theme" data-plugin-options="{'items':1}">
                                             <div>
-                                                <h1 style="color: blue;"><?= $title?></h1>
+                                                <h1 style="color: #1E90FF; font-weight: bold;"><?= $title?></h1>
                                                 
                                             </div>
                                         </div>

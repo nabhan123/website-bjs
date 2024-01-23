@@ -75,7 +75,11 @@
 			<div class="dropdown-mega-content container">
 				<div class="row">
 					<div class="col-md-3">
-						<h3><b><?php echo $row['nama_menu']; ?></b></h3>
+						<h3><b><?= 
+						
+						$row['nama_menu']; 
+
+						?></b></h3>
 						<p><?php echo $row['deskripsi']; ?></p>
 						<!-- <a target="_blank" href="#" class="btn btn-primary text-color-light">Learn more..</a> -->
 					</div>
@@ -84,11 +88,11 @@
 						foreach ($pilihan2->result_array() as $row2) {    
 						?>
 							<div class="col-md-3">
-								<span class="dropdown-mega-sub-title"><h4><?php echo $row2['nama_menu'] ?></h4></span>
+								<span class="dropdown-mega-sub-title"><h4><?= $row2['nama_menu'] ?></h4></span>
 								<ul class="dropdown-mega-sub-nav">
 								<?php
 								$pilihan3 = $this->model_utama->view_where('menu', array('id_parent' => $row2['id_menu'], 'aktif' => 'Ya'));
-								foreach ($pilihan3->result_array() as $row3) {    
+								foreach ($pilihan3->result_array() as $row3) { 
 									if(substr($row3['link'],0,7) == "http://" or substr($row3['link'],0,8) == "https://"  or substr($row3['link'],0,3) == "www."){
 								?>
 										<li><a href="<?php echo $row3['link']; ?>"><i class="fa fa-chevron-right" aria-hidden="true"></i> <?php echo $row3['nama_menu']; ?></a></li>
