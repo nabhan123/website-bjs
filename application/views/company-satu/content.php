@@ -89,6 +89,15 @@ $linksatu = $this->model_utama->view_where_ordering_limit('link', array('id_pare
 					</div>
 				</div>
 			</div>
+			<!-- <div class="col-md-3 col-sm-6">
+				<div class="featured-box featured-box-quaternary featured-box-effect-2" style="height: 206.2px;">
+					<div class="box-content">
+						<i class="icon-featured fa fa-users"></i>
+						<h4>OUTLET</h4>
+						<a href="<?= base_url().'halaman/detailOutlet' ;?>" class="btn btn-tertiary mr-xs mb-lg">Klik Disini</a>
+					</div>
+				</div>
+			</div> -->
 		</div>
 	</div>
 </div>

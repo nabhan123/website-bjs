@@ -17,12 +17,13 @@
                 
             </div>
         </div>
-        <div class="header-container header-nav header-nav-center header-nav-bar navbar navbar-dark bg-primary" style="background-color: blue;">
+        <div class="header-container header-nav header-nav-center header-nav-bar navbar navbar-dark bg-primary" style="background-color: #1E90FF;">
+        <!-- <div class="header-container header-nav header-nav-center header-nav-bar navbar navbar-dark bg-primary"> -->
 
             <button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main">
                 <i class="fa fa-bars"></i>
             </button>
-            <div class="header-nav-main header-nav-main-light header-nav-main-effect-1 header-nav-main-sub-effect-1 collapse" style="padding-top:3px; background-color: blue;">
+            <div class="header-nav-main header-nav-main-light header-nav-main-effect-1 header-nav-main-sub-effect-1 collapse" style="padding-top:3px;">
                 <nav>
                     <ul class="nav nav-pills" id="mainNav">
                         <li class="">
