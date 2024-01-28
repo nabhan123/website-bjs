@@ -71,6 +71,7 @@ $linksatu = $this->model_utama->view_where_ordering_limit('link', array('id_pare
 					</div>
 				</div>
 			</div>
+			<!-- perubahan dari mitra ke holding corporate -->
 			<div class="col-md-3 col-sm-6">
 				<div class="featured-box featured-box-tertiary featured-box-effect-2" style="height: 206.2px;">
 					<div class="box-content">
