@@ -25,24 +25,20 @@
                                     <div id="carouselExample" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="item active">
-                                            <img src="<?= base_url() . "asset/foto_kub/os.png"?>" alt="Image 1">
+                                            <img src="<?= base_url() . "asset/foto_kub/kub-fiks.png"?>" alt="Image 1">
                                             <div class="carousel-caption">
-                                                <!-- Caption content here -->
                                             </div>
                                         </div>
-                                        <div class="item">
+                                        <!-- <div class="item">
                                             <img src="<?= base_url() . "asset/foto_kub/ks.png"?>" alt="Image 2">
                                             <div class="carousel-caption">
-                                                <!-- Caption content here -->
                                             </div>
                                         </div>
                                         <div class="item">
                                             <img src="<?= base_url() . "asset/foto_kub/kons.png"?>" alt="Image 2">
                                             <div class="carousel-caption">
-                                                <!-- Caption content here -->
                                             </div>
-                                        </div>
-                                        <!-- More items go here -->
+                                        </div> -->
                                     </div>
                                     <!-- Controls -->
                                     <a class="left carousel-control" href="#carouselExample" role="button" data-slide="prev">
