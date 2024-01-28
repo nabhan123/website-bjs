@@ -75,7 +75,7 @@ $linksatu = $this->model_utama->view_where_ordering_limit('link', array('id_pare
 				<div class="featured-box featured-box-tertiary featured-box-effect-2" style="height: 206.2px;">
 					<div class="box-content">
 						<i class="icon-featured fa fa-newspaper-o"></i>
-						<h4>MITRA</h4>
+						<h4>HOLDING CORPORATE</h4>
 						<a href="<?= base_url().'halaman/detailMitra' ;?>" class="btn btn-tertiary mr-xs mb-lg">Klik Disini</a>
 					</div>
 				</div>
